@@ -73,16 +73,16 @@ body {
   width: 100%;
   height: 100%;
   max-height: 100%;
-  overflow: scroll; 
+  overflow: scroll;
 }
 .resume-sections {
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding-top: 100px;
-  font-family: var(--main-font-family);
+  font-family: var(--main-font-family) !important;
   border-bottom: 1px solid gray;
   padding-left: 50px;
-  ma
+  padding-left: 50px;
 }
 .Name {
   font-weight: 900;
@@ -124,4 +124,46 @@ body {
   font-size: 30px;
 }
 
-
+.title-section {
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 3rem !important;
+  color: var(--title-color);
+  font-size: calc(1.475rem + 2.7vw);
+  font-family: var(--main-font-family);
+}
+.job-title-date {
+  height: 40px;
+  font-family: var(--main-font-family);
+}
+.job-title-date h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: var(--main-font-family);
+  font-size: 2rem;
+}
+.job-title-date span {
+  color: var(--spacial-part-color);
+  margin-right: 20px;
+}
+.sub-text-title {
+  font-family: var(--main-font-family);
+  color: var(--main-text-color);
+  margin-bottom: 20px;
+}
+.description-exp {
+  width: 75%;
+  color: var(--main-text-color);
+  padding-bottom: 32px;
+}
+.skills-icons {
+  margin: 0;
+  padding: 0;
+}
+.skills-icons li svg {
+  width: 44px;
+  height: 44px;
+  color: var(--main-text-color);
+  margin-right: 10px;
+}
