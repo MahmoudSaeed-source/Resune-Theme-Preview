@@ -3,6 +3,7 @@
   --spacial-part-color : #bd5d38;
   --title-color:#343a40;
   --main-text-color:#6c757d :
+  --hover-color:#d3d4d6;
   /* font-family */
   --main-font-family:'Saira Extra Condensed',
     sans-serif;
@@ -14,15 +15,22 @@
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-family: var(second-font-family);
 }
 .top-nav{
   width:100%;
-  height:100px;
+  height:60px;
   display:flex;
   align-items:center;
   justify-content:space-between;
   border:2px solid red
 }
-.overView-page{
-  border:2px solid red;
+.overView-text{
+color:#989793;
+font-size: 12px;
+}
+.overView-text:hover{
+  cursor: pointer;
+  background-color: #d3d4d6;
+
 }
