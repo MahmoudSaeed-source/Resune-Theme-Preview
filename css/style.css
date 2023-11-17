@@ -15,7 +15,10 @@
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  font-family: var(second-font-family);
+  font-family: var(--second-font-family);
+}
+body{
+  font-family: var(--second-font-family);
 }
 .top-nav{
   width:100%;
@@ -23,7 +26,6 @@
   display:flex;
   align-items:center;
   justify-content:space-between;
-  border:2px solid red
 }
 .overView-text{
 color:#989793;
@@ -32,5 +34,46 @@ font-size: 12px;
 .overView-text:hover{
   cursor: pointer;
   background-color: #d3d4d6;
-
+}
+ .svg-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ cursor: pointer;
+  margin-right:6px
+}
+.svg-icons:hover{
+  background-color: #d3d4d6;
+}
+.download{
+  padding: 3px;
+  font-size:12px;
+  color:red;
+  background-color: #f2e7eb;
+}
+.nav-bar-content{
+height:90vh;
+  max-height: 100vh;
+  width: 20%;
+  background-color: #bd5d38;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  border-right: #bd5d38;
+}
+.resume-content{
+  width:80%;
+  height:auto;
+}
+#about{
+width:100%;
+height: 90vh;
+}
+.Name{
+  font-weight: 900;
+  font-family: var(--main-font-family);
 }
