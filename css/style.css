@@ -53,13 +53,15 @@ body {
   color: red;
   background-color: #f2e7eb;
 }
+
 .resume-container {
   width: 100%;
   height: 92vh;
   max-height: 92vh;
+  border-top: 3px solid var(--spacial-part-color);
 }
 .nav-bar-content {
-  width: 35%;
+ width:40%;
   height: 100%;
   max-height: 100%;
   background-color: #bd5d38;
@@ -69,6 +71,79 @@ body {
   align-items: start;
   border-right: #bd5d38;
 }
+.img-container {
+  border: 10px solid var(--spacial-part-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.img-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-links{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-links .link{
+color :#e1b6a5 !important;
+font-family: var(--second-font-family);
+font-weight:700;
+font-size:18px;
+text-decoration: none;
+margin-bottom: 10px;
+}
+.nav-links .link:hover{
+  color:#fff !important;
+}
+.navbar{
+  background-color: var(--spacial-part-color) !important;
+}
+.name-mobil{
+  font-family: var(--second-font-family) !important;
+    font-weight: 700 !important;
+    font-size: 18px !important
+}
+.nav-item .nav-link{
+  color: #e1b6a5 !important;
+  font-family: var(--second-font-family) !important;
+    font-weight: 700 !important;
+    font-size: 18px !important
+}
+.nav-item .nav-link:hover{
+color: #fff !important;
+
+}
+.navbar-toggler{
+border-color: #b9541a !important;
+  border: 2px solid;
+  background-color: var(--spacial-part-color) !important;
+  outline: none;
+}
+.navbar-toggler:hover ,button:focus:not(:focus-visible){
+  outline: none !important;
+  box-shadow:none
+}
+.navbar-toggler-icon{
+  color:#fff m !important;
+  background-color: #e1b6a5 !important;
+  height: 2px;
+}
+
 .resume-content-wrapper {
   width: 100%;
   height: 100%;
@@ -83,6 +158,31 @@ body {
   border-bottom: 1px solid gray;
   padding-left: 50px;
   padding-left: 50px;
+}
+/* media screen .resume-sections*/
+@media screen and (min-width:0px)and (max-width:991px) {
+  .resume-sections{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .job-title-date {
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start !important;
+    height: auto !important; 
+
+  }
+  .job-title-date span{
+    margin-bottom: 10px;
+  }
+ .skills-icons{
+  max-width: 100%;
+  flex-wrap: wrap;
+  height:auto
+ }
 }
 .Name {
   font-weight: 900;
@@ -166,4 +266,21 @@ body {
   height: 44px;
   color: var(--main-text-color);
   margin-right: 10px;
+}
+.workflow-checked,
+work-flow-AWARDS {
+  padding-bottom: 5rem;
+}
+.workflow-checked li,
+work-flow-AWARDS li {
+  font-family: var(--main-font-family);
+  color: var(--main-text-color);
+  font-size: 16px;
+
+}
+.workflow-AWARDS{
+  margin-bottom: 60px;
+}
+.workflow-AWARDS li svg {
+  color: gold;
 }

@@ -26,29 +26,80 @@
 </head>
 
 <body>
-  <section class="top-nav d-flex justify-content-between align-content-center px-2">
-    <div class="overView-page h-100 text-center col-2">
+  <section class="top-nav d-lg-flex d-none justify-content-between align-content-center px-2 ">
+    <div class="overView-page h-100 text-center col-3">
       <div class="h-100 d-flex justify-content-start align-items-center px-4">
         <span class="overView-text p-1 rounded-2 d-felx justify-center align-items-center text-capitalize px-3"><i
             class="fa-solid fa-arrow-left me-2"></i> overView page</span>
       </div>
     </div>
-    <div class="screen-preview col-7 h-100 d-flex justify-content-center align-items-center text-gray">
+    <div class="screen-preview col-6 h-100 d-flex justify-content-center align-items-center text-gray">
       <span class="svg-icons"><i class="fa-solid fa-tv"></i></span>
       <span class="svg-icons"><i class="fa-solid fa-tablet-screen-button"></i></span>
       <span class="svg-icons"><i class="fa-solid fa-mobile-screen-button"></i></span>
     </div>
-    <div class="tools-icons col-2 d-flex justify-content-between align-items-center h-100 c">
+    <div class="tools-icons col-3 d-flex justify-content-around align-items-center h-100 c">
       <span class="svg-icons"><i class="fa-brands fa-github"></i></span>
       <span class="download p-2"><i class="fa-solid fa-download"></i> free download</span>
       <span class="svg-icons"><i class="fa-solid fa-xmark"></i></span>
     </div>
   </section>
-  <section class="resume-container d-flex border border-3 border-top border-danger">
-    <nav class="nav-bar-content"></nav>
-    <div class="resume-content d-flex flex-column">
-      <div class="resume-content-wrapper">
-        <div id="about " class="resume-sections d-flex justify-content-start align-items-start flex-column">
+  <div class="nav-tablet-mobile d-lg-none d--flex">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <span class=" name-mobil d-block d-lg-none text-white">Clarence Taylor</span>
+        <button class="navbar-toggler d-flex flex-column" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon mb-1"></span>
+          <span class="navbar-toggler-icon mb-1"></span>
+          <span class="navbar-toggler-icon mb-1"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#ABOUT">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#EXPERIENCE">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#EDUCATION">EDUCATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#SKILLS">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#INTERESTS">INTERESTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AWARDS">AWARDS</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <section class="resume-container d-block d-lg-flex ">
+    <nav class="nav-bar-content d-none d-lg-flex">
+      <nav class=" w-100 d-lg-flex  flex-column">
+        <span class="img-container"><img class=" img-profile" src="assets/img/profile.jpg" alt="..." /></span>
+        <div class=" d-flex flex-column w-100 h-100 ">
+          <div class=" nav-links d-flex flex-column text-uppercase">
+            <a class="link" href="#ABOUT">ABOUT</a>
+            <a class="link" href="#EXPERIENCE">EXPERIENCE</a>
+            <a class="link" href="#EDUCATION">EDUCATION</a>
+            <a class="link" href="#SKILLS">SKILLS</a>
+            <a class="link" href="#INTERESTS">INTERESTS</a>
+            <a class="link" href="#AWARDS">AWARDS</a>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </nav>
+    <div class="resume-content d-flex flex-column ">
+      <div class="resume-content-wrapper ">
+        <div id="ABOUT" class="resume-sections d-flex justify-content-start align-items-start flex-column">
           <h1 class="Name text-uppercase">CLARENCE <span>TAYLOR</span></h1>
           <p class="address text-uppercase">
             3542 BERRY STREET · CHEYENNE WELLS, CO 80810 · (317) 585-8468 ·
@@ -68,57 +119,62 @@
           </div>
         </div>
         <div id="EXPERIENCE" class="resume-sections">
-          <h2 class ="title-section">EXPERIENCE</h2>
-          <div class = 'exp-description'>
-            <div class = 'job-title-date d-flex justify-content-between align-items-center '> 
-              <h5>SENIOR WEB DEVELOPER</h5> 
+          <h2 class="title-section">EXPERIENCE</h2>
+          <div class='exp-description'>
+            <div class='job-title-date d-flex justify-content-between align-items-center '>
+              <h5>SENIOR WEB DEVELOPER</h5>
               <span>March 2013 - Present</span>
             </div>
-            <h4 class = 'sub-text-title'>INTELITEC SOLUTIONS</h4>
-            <p class = description-exp>
+            <h4 class='sub-text-title'>INTELITEC SOLUTIONS</h4>
+            <p class=description-exp>
               Bring to the table win-win survival strategies
-               to ensure proactive domination. At the end of the day
-               , going forward, anew normal that has evolved from generation
-                X is on the runway heading towards a streamlined cloud solution. User
-            generated content in real-time will have multiple touchpoints for offshoring.
-          </p>
+              to ensure proactive domination. At the end of the day
+              , going forward, anew normal that has evolved from generation
+              X is on the runway heading towards a streamlined cloud solution. User
+              generated content in real-time will have multiple touchpoints for offshoring.
+            </p>
           </div>
-          <div class = 'exp-description'>
-            <div class = 'job-title-date d-flex justify-content-between align-items-center '> 
-              <h5>WEB DEVELOPER</h5> 
+          <div class='exp-description'>
+            <div class='job-title-date d-flex justify-content-between align-items-center '>
+              <h5>WEB DEVELOPER</h5>
               <span>December 2011 - March 2013</span>
             </div>
-            <h4 class = 'sub-text-title'>INTELITEC SOLUTIONS</h4>
-            <p class = description-exp>
-            Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide
-            with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on
-            focusing solely on the bottom line.
-          </p>
+            <h4 class='sub-text-title'>INTELITEC SOLUTIONS</h4>
+            <p class=description-exp>
+              Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the
+              digital divide
+              with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will
+              close the loop on
+              focusing solely on the bottom line.
+            </p>
           </div>
-          <div class = 'exp-description'>
-            <div class = 'job-title-date d-flex justify-content-between align-items-center '> 
-              <h5>JUNIOR WEB DESIGNER</h5> 
+          <div class='exp-description'>
+            <div class='job-title-date d-flex justify-content-between align-items-center '>
+              <h5>JUNIOR WEB DESIGNER</h5>
               <span>July 2010 - December 2011</span>
             </div>
-            <h4 class = 'sub-text-title'>SHOUT! MEDIA PRODUCTIONS</h4>
-            <p class = description-exp>
-              Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance
-              indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up
+            <h4 class='sub-text-title'>SHOUT! MEDIA PRODUCTIONS</h4>
+            <p class=description-exp>
+              Podcasting operational change management inside of workflows to establish a framework. Taking seamless key
+              performance
+              indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on
+              the start-up
               mentality to derive convergence on cross-platform integration.
-          </p>
+            </p>
           </div>
-          <div class = 'exp-description'>
-            <div class = 'job-title-date d-flex justify-content-between align-items-center '> 
-              <h5>WEB DESIGN INTERN</h5> 
+          <div class='exp-description'>
+            <div class='job-title-date d-flex justify-content-between align-items-center '>
+              <h5>WEB DESIGN INTERN</h5>
               <span>September 2008 - June 2010</span>
             </div>
-            <h4 class = 'sub-text-title'>SHOUT! MEDIA PRODUCTIONS</h4>
-            <p class = description-exp>
-              Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after
+            <h4 class='sub-text-title'>SHOUT! MEDIA PRODUCTIONS</h4>
+            <p class=description-exp>
+              Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C
+              users after
               installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-          </p>
+            </p>
           </div>
-          </div>
+        </div>
         <div id="EDUCATION" class="resume-sections">
           <h2 class="title-section">EDUCATION</h2>
           <div class='exp-description'>
@@ -128,8 +184,8 @@
             </div>
             <h4 class='sub-text-title'>BACHELOR OF SCIENCE</h4>
             <p class=description-exp>
-          Computer Science - Web Development Track
-          GPA: 3.23
+              Computer Science - Web Development Track
+              GPA: 3.23
             </p>
           </div>
           <div class='exp-description'>
@@ -139,7 +195,7 @@
             </div>
             <h4 class='sub-text-title'>TECHNOLOGY MAGNET PROGRAM</h4>
             <p class=description-exp>
-        GPA: 3.56
+              GPA: 3.56
             </p>
           </div>
         </div>
@@ -160,9 +216,49 @@
             <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
             <li class="list-inline-item"><i class="fab fa-npm"></i></li>
           </ul>
+          <h4 class='sub-text-title mt-4 '>WORKFLOW</h4>
+          <ul class="workflow-checked list-unstyled ms-2 ">
+            <li><i class="fa-solid fa-check me-2"></i><span>Mobile-First, Responsive Design</span></li>
+            <li><i class="fa-solid fa-check me-2"></i><span>Cross Browser Testing & Debugging</span></li>
+            <li><i class="fa-solid fa-check me-2"></i><span>Cross Functional Teams</span></li>
+            <li><i class="fa-solid fa-check me-2 "></i><span>Agile Development & Scrum</span></li>
+          </ul>
         </div>
-        <div id="INTERESTS"></div>
-        <div id="AWARDS"></div>
+        <div id="INTERESTS" class="resume-sections INTERESTS ">
+          <h2 class="title-section">INTERESTS</h2>
+          <p class="description-exp w-75">
+            CApart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier
+            and novice
+            ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and
+            kayaking.
+          </p>
+          <p class=" description-exp w-75">
+            When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an
+            aspiring chef,
+            and I spend a large amount of my free time exploring the latest technology advancements in the front-end web
+            development
+            world.
+          </p>
+        </div>
+        <div id="AWARDS" class="resume-sections AWARDS ">
+          <h2 class="title-section">AWARDS & CERTIFICATIONS</h2>
+          <ul class="workflow-AWARDS list-unstyled ms-2 ">
+            <li><i class="fa-solid fa-trophy me-2"></i><span> Google Analytics Certified Developer</span></li>
+            <li><i class="fa-solid fa-trophy me-2"></i><span> Mobile Web Specialist - Google Certification</span></li>
+            <li><i class="fa-solid fa-trophy me-2"></i><span>1
+                <sup>st</sup>
+                Place - University of Colorado Boulder - Emerging Tech Competition 2009</span></li>
+            <li><i class="fa-solid fa-trophy me-2"></i></i><span> 2
+                <sup>nd</sup>
+                Place - University of Colorado Boulder - Emerging Tech Competition 2008)</span></li>
+            <li><i class="fa-solid fa-trophy me-2"></i></i><span>1
+                <sup>st</sup>
+                Place - James Buchanan High School - Hackathon 2006</span></li>
+            <li><i class="fa-solid fa-trophy me-2"></i></i><span> 3
+                <sup>rd</sup>
+                Place - James Buchanan High School - Hackathon 2005</span></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
