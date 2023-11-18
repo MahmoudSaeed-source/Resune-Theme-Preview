@@ -159,31 +159,7 @@ border-color: #b9541a !important;
   padding-left: 50px;
   padding-left: 50px;
 }
-/* media screen .resume-sections*/
-@media screen and (min-width:0px)and (max-width:991px) {
-  .resume-sections{
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: center;
-    align-items: center;
-  }
-  .job-title-date {
-    flex-direction: column;
-    justify-content: start !important;
-    align-items: start !important;
-    height: auto !important; 
 
-  }
-  .job-title-date span{
-    margin-bottom: 10px;
-  }
- .skills-icons{
-  max-width: 100%;
-  flex-wrap: wrap;
-  height:auto
- }
-}
 .Name {
   font-weight: 900;
   font-size: calc(1.725rem + 3.7vw);
@@ -283,4 +259,32 @@ work-flow-AWARDS li {
 }
 .workflow-AWARDS li svg {
   color: gold;
+}
+/* media screen */
+@media screen and (min-width:100px)and (max-width:991px) {
+  .resume-sections {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .job-title-date {
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start !important;
+    height: auto !important;
+
+  }
+
+  .job-title-date span {
+    margin-bottom: 10px;
+  }
+
+  .skills-icons {
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: auto
+  }
 }
